@@ -9,6 +9,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -155,4 +159,100 @@ header {
   width: 50%;
   padding-left: 20px;
   border-left: solid 4px var(--cinza);
+}
+
+.containerServicos {
+  margin: 80px 12.75% 80px 12.75%;
+  color: var(--branco);
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  border-radius: 30px;
+  background: #1e1e1e;
+  box-shadow: 12px 12px 23px #121212,
+    -12px -12px 23px #2a2a2a;
+}
+
+.containerServicos .textServicos {
+  flex: 1;
+}
+
+.textServicos h1 {
+  margin: 40px 0 40px 7%;
+  font-size: 40px;
+}
+
+.textServicos h4 {
+  margin: 0 0 0 7%;
+  font-size: 30px;
+}
+
+.textServicos p {
+  margin: 0 0 40px 7%;
+  font-size: 25px;
+}
+
+.containerServicos .imageServicos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 7%;
+}
+
+.containerServicos .imageServicos img {
+  width: 500px;
+
+}
+
+.containerPortifolio {
+  margin: 0px 12.75%;
+  color: var(--preto);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.containerPortifolio img {
+  width: 295px;
+  height: 198px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.box {
+  width: 340px;
+  height: 420px;
+  background-color: var(--branco);
+  display: flex;
+  flex-direction: column;
+  padding: 12px 12px 0px 12px;
+  border-radius: 20px;
+}
+
+.box h4,
+p {
+  text-align: left;
+  width: 95%;
+  margin-top: 12px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containerPortifolio a {
+  width: 236px;
+  height: 44px;
+  color: var(--branco);
+  background-color: var(--cinza);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 30px;
+  border-radius: 10px;
+  margin-top: 27px;
+  margin-bottom: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  text-align: center;
 }
